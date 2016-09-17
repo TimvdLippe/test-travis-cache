@@ -3,7 +3,7 @@ cache:
   directories:
     - $(npm config get prefix)/lib/node_modules/bower
 before_script:
-  - npm install -g bower@1.7.1
+  - npm install -g bower@1.7.2
 script:
   - bower -v
 dist: trusty
