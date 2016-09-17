@@ -6,4 +6,3 @@ before_script:
   - npm install -g bower
 script:
   - bower -v
-dist: trusty
