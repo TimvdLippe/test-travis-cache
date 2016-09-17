@@ -1,0 +1,10 @@
+sudo: required
+cache:
+  directories:
+    - $(npm config get prefix)/lib/node_modules/bower
+before_script:
+  - bower -v
+  - npm install -g bower@1.7.0
+script:
+  - bower -v
+dist: trusty
